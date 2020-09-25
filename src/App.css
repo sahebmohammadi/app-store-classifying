@@ -7,10 +7,17 @@
 
 /* ------------------------------------------------------------- */
 /* New Group design */
-
+p.hint{
+  font-size: 0.9 rem;
+  margin-top: 3rem;
+  background-color: #efefef;
+  color : #7c7c7c;
+  padding : 0.3rem 0.9rem;
+  border-radius: 15px;
+}
 div.newGroup {
   display: flex;
-  margin: 2rem 0 1rem;
+  margin: 0.4rem 0 1rem;
 }
 div.newGroup input {
   border: 2px solid #efefef;

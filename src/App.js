@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import uuid from "react-uuid";
-import "bootstrap/dist/css/bootstrap.min.css";
 import NewGroup from "./newGroup";
 import SelectGroup from "./selectGroup";
 import Product from "./product";

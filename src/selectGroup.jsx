@@ -21,7 +21,7 @@ const SelectGroup = (props) => {
 
   return (
     <>
-    
+     <p className="hint"> Hint :  To Classify the Product Select Group and type Product name</p>
       <div>
         <div className="select-item">
           <select
