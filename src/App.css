@@ -1,38 +1,148 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* ------------------------------------------------------------- */
+/* New Group design */
+
+div.newGroup {
+  display: flex;
+  margin: 2rem 0 1rem;
+}
+div.newGroup input {
+  border: 2px solid #efefef;
+  background-color: #efefef;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 5px 10px;
+}
+div.newGroup input::placeholder {
+  color: #8b8b8b;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+div.newGroup input:focus {
+  outline: none;
+  border-left-color: rgb(100, 201, 100);
+  border-top-color: rgb(100, 201, 100);
+  border-bottom-color: rgb(100, 201, 100);
+}
+div.newGroup button {
+  background-color: rgb(100, 201, 100);
+  border: none;
+  padding: 7px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+div.newGroup button i {
+  color: #ffffff;
+}
+div.newGroup button i:hover {
+  color: #8b8b8b;
+}
+div.newGroup button:focus {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ------------------------------------------------------------- */
+/* Select Product design */
+div.select-item {
+  margin: 1rem;
+}
+div.select-item select {
+  background-color: #efefef;
+  padding: 8.6px 109px 8.6px 10px;
+  border: none;
+  color: #8b8b8b;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+div.select-item select:focus {
+  outline: none ;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+div.select-item select * {
+  background-color: #efefef;
+  font-weight: bold;
+}
+div.select-item select:hover {
+  color: rgb(100, 201, 100);
+}
+
+/* ------------------------------------------------------------- */
+/* Product design */
+
+.product {
+  display: flex;
+  margin: 1rem;
+}
+.product input {
+  border: 2px solid #efefef;
+  background-color: #efefef;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 5px 10px;
+}
+.product input::placeholder {
+  color: #8b8b8b;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.product input:focus {
+  outline: none;
+}
+.product input:focus {
+  outline: none;
+  border-left-color: rgb(100, 201, 100);
+  border-top-color: rgb(100, 201, 100);
+  border-bottom-color: rgb(100, 201, 100);
+}
+.product button {
+  background-color: rgb(100, 201, 100);
+  border: none;
+  padding: 8px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.product button:hover {
+  color: #8b8b8b;
+}
+.product-item {
+  display: flex;
+  margin: 1rem;
+}
+.product-item li {
+  list-style: none;
+  width: 300px;
+  padding: 5px 15px;
+  border: 2px solid #81e2898f;
+  background-color: #21c72e8f;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.product-item button {
+  background-color: rgba(246, 50, 50, 0.89);
+  border: none;
+  padding: 8px 10px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+ul {
+  padding: 0;
+  margin: 0;
 }
